@@ -4,7 +4,7 @@ Quickly load variables from rosparam with good command line error checking.
 
 This package enforces the philosophy that there should be no default parameters - everything must be defined by the user in yaml files (or launch files or where ever) otherwise your program should not run. This helps debug why something isn't working correctly - it will tell you exactly what rosparameters are missing.
 
-Features:
+Features:09
  - Outputs all loaded data into consule using ROS_DEBUG, so you won't see it unless you turn it on
  - Namespaces all output within the ``parent_name``
  - Great for having each class have its own parameter namespace
